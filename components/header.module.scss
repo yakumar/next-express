@@ -1,0 +1,23 @@
+
+
+.header{
+    background-color: red;
+    color:rgb(12, 204, 238);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
+
+    & a{
+        text-decoration: none;
+        font-size: 1.5rem;
+        transition: ease-in-out .2s;
+        padding-left: 2rem;
+
+        &:hover{
+            color: yellow;
+            cursor: pointer;
+        }
+    }
+    
+}

@@ -1,0 +1,29 @@
+
+
+
+.form{
+    background-color: yellow;
+    color:red;
+    font-size: 3rem;
+
+    & input{
+        padding: 1rem;
+        border-radius: .4rem;
+        font-size: .9rem;
+        box-shadow: none;
+        border: 1px solid rgba(255, 255, 0, 0.966);
+
+        
+
+        &:last-child{
+            padding: .6rem;
+            &:hover,
+            &:visited{
+                background-color: salmon;
+                box-shadow: .2rem .1rem .1rem seashell;
+            }
+
+        }
+       
+    }
+}
